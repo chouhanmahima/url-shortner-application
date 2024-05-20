@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(239, 248, 248);
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 16rem 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1{
+   font-size: 3rem;
+}
+
+#longUrl{
+    width: 40rem;
+    height: 1.6rem;
+    text-align: center;
+}
+
+#shortUrl{
+    width: 22rem;
+    height: 1.6rem;
+    text-align: center;
+}
+
+#btn{
+    padding: 5px 5px;
+    background-color: rgb(35, 162, 33);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: .2rem .1rem rgba(28, 27, 27, 0.759);
+}
+
+#btn:hover{
+    background-color: green;
+}
